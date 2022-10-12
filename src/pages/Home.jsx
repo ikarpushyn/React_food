@@ -11,8 +11,6 @@ export const Home = () => {
 
 	const { pathname, search } = useLocation();
 	const { push } = useHistory();
-	// console.log(pathname, search);
-	// console.log(push);
 
 	const handleSearch = (str) => {
 		setFilteredCatalog(
@@ -39,8 +37,6 @@ export const Home = () => {
 
 	return (
 		<>
-			<h1>Home</h1>
-
 			<Search cb={handleSearch} />
 
 			{!catalog.length ? <Preloader /> : <CategoryList catalog={filteredCatalog} />}
