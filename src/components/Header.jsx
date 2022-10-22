@@ -4,7 +4,7 @@ export const Header = () => {
 	return (
 		<nav className="#4a148c purple darken-4">
 			<div className="nav-wrapper">
-				<a href="https://github.com/ikarpushyn/React_food/" className="brand-logo">
+				<a href="https://ikarpushyn.github.io/React_food/" className="brand-logo">
 					React Recipe
 				</a>
 				<ul id="nav-mobile" className="right hide-on-med-and-down">
